@@ -9,16 +9,16 @@ class CategoryCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.only(right: 16),
+      padding: const EdgeInsets.only(right: 16.0),
       child: Container(
-        height: 85,
-        width: 160,
+        height: 85.0,
+        width: 160.0,
         decoration: BoxDecoration(
           image: DecorationImage(
             fit: BoxFit.fill,
             image: AssetImage(category.image),
           ),
-          borderRadius: BorderRadius.circular(16),
+          borderRadius: BorderRadius.circular(16.0),
         ),
         child: Center(
           child: Text(
