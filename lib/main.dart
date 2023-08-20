@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:news_app/services/news_services.dart';
 import 'package:news_app/views/home_view.dart';
 
-void main() {
-  NewsServices(Dio()).getNews();
+void main() async{
+  await NewsServices(Dio()).getNews();
   runApp(const NewsApp());
 }
 
