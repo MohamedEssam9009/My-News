@@ -12,6 +12,16 @@ class NewsServices {
     Map<String, dynamic> jsonData = response.data;
 
     List<dynamic> articales = jsonData['articles'];
-   
+    List<ArticalModel> articalesList = [];
+
+    for (var artical in articales) {
+      ArticalModel articalModel = ArticalModel(
+          image: artical['urlToImage'],
+          title: artical['title'],
+          subTitle: artical['description']);
+
+      articalesList.add(articalModel);
+    }
+    print(articalesList);
   }
 }
