@@ -5,24 +5,24 @@ class NewsServices {
   final Dio dio;
   NewsServices(this.dio);
 
-  Future<List<ArticalModel>> getNews() async {
+  Future<List<ArticleModel>> getNews() async {
     var response = await dio.get(
         'https://newsapi.org/v2/top-headlines?country=us&apiKey=832d6133388348eb84a7620862a6a70c');
 
     Map<String, dynamic> jsonData = response.data;
 
-    List<dynamic> articales = jsonData['articles'];
+    List<dynamic> articles = jsonData['articles'];
 
-    List<ArticalModel> articalesList = [];
+    List<ArticleModel> articlesList = [];
 
-    for (var artical in articales) {
-      ArticalModel articalModel = ArticalModel(
-          image: artical['urlToImage'],
-          title: artical['title'],
-          subTitle: artical['description']);
+    for (var article in articles) {
+      ArticleModel articleModel = ArticleModel(
+          image: article['urlToImage'],
+          title: article['title'],
+          subTitle: article['description']);
 
-      articalesList.add(articalModel);
+      articlesList.add(articleModel);
     }
-    return articalesList;
+    return articlesList;
   }
 }
