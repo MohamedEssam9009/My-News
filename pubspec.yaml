@@ -16,6 +16,7 @@ dependencies:
   flutter_avif: 
   dio: 
   cached_network_image: 
+  flutter_native_splash:
 
 
 dev_dependencies:
