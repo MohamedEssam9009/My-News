@@ -1,4 +1,4 @@
-# News App
+# My News
 
 A flutter application to browse all the new and exclusive news 
 
