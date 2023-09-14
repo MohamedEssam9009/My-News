@@ -1,5 +1,5 @@
 name: news_app
-description: A new Flutter project.
+description: A news application is a big interactive database that tells a news story.
 
 publish_to: "none"
 
@@ -16,17 +16,8 @@ dependencies:
   flutter_avif:
   dio:
   cached_network_image:
-
-dev_dependencies:
-  flutter_test:
-    sdk: flutter
-
-  change_app_package_name: ^1.1.0
   flutter_native_splash: ^2.3.2
-  flutter_launcher_icons: "^0.13.1"
-
-
-flutter_lints: ^2.0.0
+  flutter_launcher_icons:
 
 flutter_launcher_icons:
   android: "launcher_icon"
@@ -35,9 +26,17 @@ flutter_launcher_icons:
 
 flutter_native_splash:
   image: assets/splash.png
+  image_dark: assets/splash.png
+  color_dark: "#000000"
   color: "#ffffff"
 
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
 
+  change_app_package_name: ^1.1.0
+
+flutter_lints: ^2.0.0
 
 flutter:
   uses-material-design: true
