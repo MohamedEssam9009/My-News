@@ -1,4 +1,4 @@
-# Cloud News
+# News Cloud 
 
 A flutter application to browse all the new and exclusive news 
 
