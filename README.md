@@ -14,6 +14,10 @@ News Cloud Mobile App aims to provide users with a quick and intuitive way to di
 - Customizable word cloud settings (e.g., color schemes, font sizes).
 - Responsive design for seamless usage across mobile devices.
 
+## UI
+![My News](https://github.com/MohamedEssam9009/News-Cloud/assets/77198018/151474c0-f0bd-4e00-8a4e-e7d1544249c8)
+
+
 ## Installation
 
 1. **Clone the repository:**
@@ -35,8 +39,6 @@ News Cloud Mobile App aims to provide users with a quick and intuitive way to di
    flutter run
    ```
 
-5. **Access the application in your web browser at `http://localhost:3000`.**
-
 ## Usage
 
 1. On the home screen, you can see the trending topics word cloud.
@@ -54,6 +56,9 @@ Contributions are welcome! If you'd like to contribute to News Cloud Mobile App,
 4. Commit your changes (git commit -am 'Add new feature').
 5. Push to the branch (git push origin feature/your-feature).
 6. Create a new Pull Request.
+
+# Play Store Link
+
 
 ## License
 
