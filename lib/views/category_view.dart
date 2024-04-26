@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import '../widgets/news_list_view_builder.dart';
 
 class CategoryView extends StatelessWidget {
@@ -13,9 +14,7 @@ class CategoryView extends StatelessWidget {
         padding: const EdgeInsets.symmetric(horizontal: 16.0),
         child: CustomScrollView(
           slivers: [
-            NewsListViewBuilder(
-              category: category,
-            )
+            NewsListViewBuilder(category: category),
           ],
         ),
       ),

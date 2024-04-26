@@ -27,9 +27,7 @@ class NewsTile extends StatelessWidget {
                 )
               : Image.asset('assets/default.jpg'),
         ),
-        const SizedBox(
-          height: 12,
-        ),
+        const SizedBox(height: 12),
         Text(
           articleModel.title,
           maxLines: 2,
@@ -40,9 +38,7 @@ class NewsTile extends StatelessWidget {
             fontWeight: FontWeight.w500,
           ),
         ),
-        const SizedBox(
-          height: 8,
-        ),
+        const SizedBox(height: 8),
         Text(
           articleModel.subTitle ?? '',
           maxLines: 2,
