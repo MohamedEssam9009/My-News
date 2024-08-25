@@ -1,10 +1,6 @@
-# News Cloud 
+# My News
 
-News Cloud Mobile App is a Flutter application that aggregates news articles from various sources and generates a visual representation of the most trending topics using word clouds.
-
-## Introduction
-
-News Cloud Mobile App aims to provide users with a quick and intuitive way to discover trending topics in the news. By fetching articles from multiple sources and analyzing their content, the application generates word clouds that visually represent the most prominent words and topics.
+My News Mobile App aims to provide users with a quick and intuitive way to discover trending topics in the news. The application generates word clouds that visually represent the most prominent words and topics by fetching articles from multiple sources and analyzing their content.
 
 ## Features
 
